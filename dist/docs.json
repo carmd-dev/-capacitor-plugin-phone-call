@@ -1,0 +1,65 @@
+{
+  "api": {
+    "name": "PhoneCallPlugin",
+    "slug": "phonecallplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "start",
+        "signature": "(options: PhoneCallOptions) => any",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "PhoneCallOptions"
+          }
+        ],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "PhoneCallOptions",
+          "SucessCallBack"
+        ],
+        "slug": "start"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "PhoneCallOptions",
+      "slug": "phonecalloptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "phone",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "SucessCallBack",
+      "slug": "sucesscallback",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "msg",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "enums": []
+}
